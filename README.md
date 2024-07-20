@@ -11,7 +11,7 @@ A simple and elegant to-do list application built with HTML, CSS, and JavaScript
 
 ## Demo
 
-![Demo Image](![image](https://github.com/user-attachments/assets/14923b5d-2e4e-4441-a6b8-2992426029d5)
+![Demo Image](![Screenshot 2024-07-20 145345](https://github.com/user-attachments/assets/0ca6057f-806c-408f-94e0-1d88dc5bd135)
 )
 
 ## Getting Started
@@ -44,7 +44,7 @@ You will need a web browser to run this application.
 
 ## Project Structure
 
-simple-to-do-list/
+simple-to-do-list
 ├── index.html
 ├── style.css
 ├── script.js
