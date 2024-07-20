@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To Do List</title>
+
+    <!-- Google Font -->
+    <!-- Linking to the Poppins font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <!-- Linking to Font Awesome for icon usage -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <!-- Linking to the external CSS file for styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the to-do list application -->
+    <div class="container">
+        <!-- Container for adding a new task -->
+        <div id="newtask">
+            <h1>Simple To Do List</h1>
+            <!-- Input field for entering a new task -->
+            <input type="text" name="task" placeholder="Task to be done...">
+            <!-- Button to add the new task, with an id for JavaScript targeting -->
+            <button id="push" type="button">Add</button>
+        </div>
+        <!-- Container to display the list of tasks -->
+        <div id="tasks"></div>
+    </div>
+    <!-- Linking to the external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* Universal reset and box-sizing */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Body styling */
+body {
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(135deg, #8052ec, #d161ff); /* Gradient background */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Container styling */
+.container {
+    border: 2px solid #fff; /* White border */
+    width: 40%; /* 40% of the viewport width */
+    min-width: 450px; /* Minimum width of 450px */
+    padding: 30px 40px; /* Padding inside the container */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+}
+
+/* Heading styling */
+h1 {
+    color: #fff; /* White text color */
+    font-size: 2.5em; /* Large font size */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center text */
+}
+
+/* Input field styling */
+#newtask input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    margin-bottom: 20px; /* Space below the input */
+    border: 2px solid #d1d3d4; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2em; /* Larger font size */
+    color: #000000; /* Black text color */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    transition: border-color 0.3s; /* Smooth border color transition on focus */
+}
+
+/* Input focus styling */
+#newtask input:focus {
+    outline: none; /* Remove default outline */
+    border-color: #8052ec; /* Purple border on focus */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background: #fff; /* White background */
+    color: #8052ec; /* Purple text color */
+    font-size: 1.2em; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    transition: background-color 0.3s, color 0.3s; /* Smooth color transitions on hover */
+}
+
+/* Button hover styling */
+button:hover {
+    background: #8052ec; /* Purple background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* Unordered list styling */
+ul {
+    list-style: none; /* Remove default list style */
+    margin-top: 20px; /* Space above the list */
+}
+
+/* Individual task styling */
+li {
+    background: #fff; /* White background */
+    padding: 10px; /* Padding inside the task */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below each task */
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between task content and delete button */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+/* Tasks container styling */
+#tasks {
+    background-color: #ffffff; /* White background */
+    padding: 30px 20px; /* Padding inside the container */
+    margin-top: 60px; /* Space above the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+}
+
+/* Individual task styling inside the tasks container */
+.task {
+    background-color: #ffffff; /* White background */
+    height: 50px; /* Fixed height */
+    padding: 5px 10px; /* Padding inside the task */
+    margin-top: 10px; /* Space above each task */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between task content and delete button */
+    border-bottom: 2px solid #d1d3d4; /* Bottom border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Task content styling */
+.task span {
+    font-family: Poppins, sans-serif; /* Font family */
+    font-size: 15px; /* Font size */
+    font-weight: 400; /* Font weight */
+}
+
+/* Delete button styling inside tasks */
+.task button {
+    background-color: #8052ec; /* Purple background */
+    color: #ffffff; /* White text color */
+    height: 100%; /* Full height */
+    width: 40px; /* Fixed width */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor on hover */
+    outline: none; /* Remove default outline */
+}
+
+/* Completed task styling */
+.completed {
+    text-decoration: line-through; /* Strike-through text */
+    color: #d1d3d4; /* Light gray text color */
+}
