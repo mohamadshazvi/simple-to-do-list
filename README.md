@@ -11,7 +11,7 @@ A simple and elegant to-do list application built with HTML, CSS, and JavaScript
 
 ## Demo
 
-![Demo Image](![Screenshot 2024-07-20 145345](https://github.com/user-attachments/assets/0ca6057f-806c-408f-94e0-1d88dc5bd135)
+Demo Image(![Screenshot 2024-07-20 145345](https://github.com/user-attachments/assets/0ca6057f-806c-408f-94e0-1d88dc5bd135)
 )
 
 ## Getting Started
